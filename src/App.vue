@@ -12,7 +12,9 @@
       <router-link to="/contact">Contact</router-link>
     </div>
     <div class="content">
-      <router-view />
+      <transition name="fade" mode="out-in">
+        <router-view />
+      </transition>
     </div>
   </div>
 </template>
@@ -71,5 +73,15 @@
 
 .content {
   margin: 0 36px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
