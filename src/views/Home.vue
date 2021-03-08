@@ -3,20 +3,19 @@
     <div>
       <h2>Quality - Hand crafted outdoor recreational furniture</h2>
       <p>
-        Leisure Cedar is an exciting company manufacturing value added outdoor
-        recreational furniture from local cedar wood. We have been making high
-        quality, comfortable outdoor furniture for the past twenty years.
+        Leisure Cedar is an exciting company manufacturing value added outdoor recreational
+        furniture from local cedar wood. We have been making high quality, comfortable outdoor
+        furniture for the past twenty years.
       </p>
       <p>
-        All Leisure Cedar products are shipped flat packed, ready to assemble
-        with clear, easy to follow instructions. Only common hand tools needed
-        to put them together.
+        All Leisure Cedar products are shipped flat packed, ready to assemble with clear, easy to
+        follow instructions. Only common hand tools needed to put them together.
       </p>
       <h3>WHAT FOLKS SAY...</h3>
       <p>
-        "We have had many enjoyable years of use and execpt many more to come.
-        The quality, workmanship and value are truly appreciated. Selkirk
-        Wilderness Ltd. supports Leisure Cedar."
+        "We have had many enjoyable years of use and execpt many more to come. The quality,
+        workmanship and value are truly appreciated. Selkirk Wilderness Ltd. supports Leisure
+        Cedar."
       </p>
 
       <p></p>
@@ -38,7 +37,9 @@ img {
   border: 1px solid #ddd;
   border-radius: 4px;
   width: 400px;
+  height: 335px;
   padding: 5px;
+  margin-left: 8px;
 }
 </style>
 
