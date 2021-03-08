@@ -12,8 +12,7 @@
     <div>250-353-1494 (cell)</div>
 
     <p>
-      <a
-        href="mailto:leisurecedar.ca@lardeauvalley.com?subject=contact%20from%20website"
+      <a href="mailto:leisurecedar.ca@lardeauvalley.com?subject=contact%20from%20website"
         >leisurecedar.ca@lardeauvalley.com</a
       >
     </p>

@@ -5,6 +5,7 @@
     </div>
     <div class="name">{{ product.name }}</div>
     <img v-bind:src="product.src" />
+    <div v-html="product.description"></div>
   </div>
 </template>
 
