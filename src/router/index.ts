@@ -13,32 +13,27 @@ const routes: Array<RouteConfig> = [
   {
     path: '/about',
     name: 'About',
-    component: () =>
-      import(/* webpackChunkName: "about" */ '../views/About.vue'),
+    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
   {
     path: '/contact',
     name: 'Contact',
-    component: () =>
-      import(/* webpackChunkName: "contact" */ '../views/Contact.vue'),
+    component: () => import(/* webpackChunkName: "contact" */ '../views/Contact.vue'),
   },
   {
     path: '/orders',
     name: 'Orders',
-    component: () =>
-      import(/* webpackChunkName: "orders" */ '../views/Orders.vue'),
+    component: () => import(/* webpackChunkName: "orders" */ '../views/Orders.vue'),
   },
   {
     path: '/products',
     name: 'Products',
-    component: () =>
-      import(/* webpackChunkName: "products" */ '../views/Products.vue'),
+    component: () => import(/* webpackChunkName: "products" */ '../views/Products.vue'),
   },
   {
     path: '/products/:id',
     name: 'Product',
-    component: () =>
-      import(/* webpackChunkName: "products" */ '../views/Product.vue'),
+    component: () => import(/* webpackChunkName: "products" */ '../views/Product.vue'),
   },
 ];
 
