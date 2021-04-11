@@ -28,14 +28,44 @@ img {
   display: block;
   border: 1px solid #ddd;
   border-radius: 4px;
-  width: 900px;
+  width: 1200px;
   padding: 5px;
   margin: auto;
 }
 
 .copy {
   margin: auto;
-  width: 900px;
+  width: 1200px;
+}
+
+@media only screen and (max-width: 1199px) {
+  img {
+    width: 900px;
+  }
+
+  .copy {
+    width: 900px;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  img {
+    width: 600px;
+  }
+
+  .copy {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  img {
+    width: 400px;
+  }
+
+  .copy {
+    width: 400px;
+  }
 }
 
 .heading {
