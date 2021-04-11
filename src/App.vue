@@ -2,11 +2,16 @@
   <div id="app">
     <div class="header">
       <div class="logo">
-        <div class="logo-text">Leisure Cedar</div>
+        <div class="logo-text">
+          Leisure
+          <div class="logo-text-spacer"></div>
+          Cedar
+        </div>
       </div>
     </div>
     <div id="nav">
       <router-link to="/">Home</router-link> | <router-link to="/products">Products</router-link> |
+      <router-link to="/gallery">Custom Works</router-link> |
       <router-link to="/orders">Orders</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/contact">Contact</router-link>
@@ -36,7 +41,7 @@
 
 .logo {
   height: 250px;
-  width: 300px;
+  width: 830px;
   background-image: url('~@/assets/images/leisurecedar-logo.png');
   background-position: center;
   background-size: contain;
@@ -50,11 +55,14 @@
   font-family: 'Segoe UI', Arial, sans-serif;
   font-weight: 400;
   font-size: 40px;
-  color: whitesmoke;
-  border: 1px solid whitesmoke;
-  border-radius: 4px;
+  color: black;
   padding: 6px 0;
-  width: 300px;
+  width: 800px;
+}
+
+.logo-text-spacer {
+  display: inline-block;
+  width: 200px;
 }
 
 #nav {

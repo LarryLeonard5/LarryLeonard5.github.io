@@ -3,8 +3,8 @@
     <div>
       <router-link to="/products">See all products</router-link>
     </div>
-    <div class="name">{{ product.name }}</div>
     <img v-bind:src="product.src" />
+    <div class="name">{{ product.name }}</div>
     <div v-html="product.description"></div>
   </div>
 </template>
@@ -27,6 +27,10 @@ import data from '../data/data';
   components: {},
 })
 export default class Product extends Vue {
-  product = data.products.find((p): boolean => p.id === this.$route.params.id);
+  product = data.products
+    .map((product) => {
+      return { ...product, src: require(`../assets/images/${product.src}`) };
+    })
+    .find((p): boolean => p.id === this.$route.params.id);
 }
 </script>

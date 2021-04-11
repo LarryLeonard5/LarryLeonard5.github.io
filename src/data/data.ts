@@ -2,18 +2,18 @@ export default {
   products: [
     {
       id: 'table-and-bench',
-      name: 'Table with 3 Benches',
-      src: require(`../assets/images/3-Benches-and-small-table-on-Deck-2.jpg`),
+      name: 'Princess Suite',
+      src: '3-Benches-and-small-table-on-Deck-2.jpg',
       description: `
         <p>
-          Description of product can include simple HTML
+          Update Description of product can include simple HTML
         </p>
       `,
     },
     {
       id: 'table-and-chairs',
       name: 'Table and 6 Chairs',
-      src: require(`../assets/images/6-Chairs-and-table-on-Deck-02-03-18-09.jpg`),
+      src: '6-Chairs-and-table-on-Deck-02-03-18-09.jpg',
       description: `
         <p>
           Description of product can include simple HTML
@@ -23,7 +23,7 @@ export default {
     {
       id: 'lounge-chairs',
       name: 'Lounge Chairs',
-      src: require(`../assets/images/Lounge-Chairs--on-paving-stone-patio.jpg`),
+      src: 'Lounge-Chairs--on-paving-stone-patio.jpg',
       description: `
         <p>
           Description of product can include simple HTML
@@ -33,12 +33,40 @@ export default {
     {
       id: 'tete-d-tet',
       name: "Tete d' Tete",
-      src: require(`../assets/images/Tete-d-Tete-on-Deck-1.jpg`),
+      src: 'Tete-d-Tete-on-Deck-1.jpg',
       description: `
         <p>
           Description of product can include simple HTML
         </p>
       `,
+    },
+    {
+      id: 'swing',
+      name: 'Porch Swing',
+      src: 'swing.jpeg',
+      description: `
+        <p>
+          Description of product can include simple HTML
+        </p>
+      `,
+    },
+  ],
+  gallery: [
+    {
+      name: 'Onions',
+      src: 'onions.jpg',
+    },
+    {
+      name: 'Peppers',
+      src: 'peppers.jpg',
+    },
+    {
+      name: 'Corn',
+      src: 'corn.jpg',
+    },
+    {
+      name: 'Couch',
+      src: 'couch.jpg',
     },
   ],
 };

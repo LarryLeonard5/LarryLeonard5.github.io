@@ -43,6 +43,12 @@ import data from '../data/data';
   components: {},
 })
 export default class Products extends Vue {
-  products = data.products;
+  products = data.products.map((product) => {
+    return { ...product, src: require(`../assets/images/${product.src}`) };
+  });
+
+  created() {
+    console.log(this.products);
+  }
 }
 </script>
