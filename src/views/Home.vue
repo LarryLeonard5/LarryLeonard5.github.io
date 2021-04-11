@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-    <img src="../assets/images/6-Chairs-and-table-on-Deck-01-03-17-09.jpg" />
+    <router-link to="/products/royal-suite">
+      <img src="../assets/images/6-Chairs-and-table-on-Deck-01-03-17-09.jpg" />
+    </router-link>
 
     <div class="copy">
       <div class="heading">
@@ -38,7 +40,7 @@ img {
   width: 1200px;
 }
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (max-width: 1280px) {
   img {
     width: 900px;
   }
@@ -48,7 +50,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 899px) {
+@media only screen and (max-width: 980px) {
   img {
     width: 600px;
   }
