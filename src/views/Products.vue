@@ -60,6 +60,7 @@ img {
 
 .row {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .featured-product {
@@ -73,6 +74,44 @@ img {
 a {
   text-decoration: none;
   color: #2c3e50;
+}
+
+@media only screen and (max-width: 1280px) {
+  .content {
+    width: 900px;
+  }
+
+  .image-container {
+    height: 310px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .content {
+    width: 600px;
+  }
+
+  .image-container {
+    height: 210px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .content {
+    width: 400px;
+  }
+
+  .image-container {
+    height: auto;
+  }
+
+  .featured-product {
+    width: 95%;
+  }
+
+  .product {
+    width: 95%;
+  }
 }
 </style>
 

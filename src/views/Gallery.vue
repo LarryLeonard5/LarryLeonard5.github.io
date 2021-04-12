@@ -39,6 +39,32 @@ img {
   padding: 4px;
   margin: auto;
 }
+
+@media only screen and (max-width: 1280px) {
+  .content {
+    width: 900px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .content {
+    width: 600px;
+  }
+
+  li {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .content {
+    width: 400px;
+  }
+
+  li {
+    width: 100%;
+  }
+}
 </style>
 
 <script lang="ts">
