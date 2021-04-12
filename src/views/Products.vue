@@ -2,7 +2,7 @@
   <div class="container">
     <div class="content">
       <div class="row">
-        <div class="featured-product" v-for="product in featuredProducts" v-bind:key="product">
+        <div class="featured-product" v-for="product in featuredProducts" v-bind:key="product.id">
           <div class="image-container">
             <router-link v-bind:to="`/products/${product.id}`">
               <img v-bind:src="product.src" />
@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="product" v-for="product in products" v-bind:key="product">
+        <div class="product" v-for="product in products" v-bind:key="product.id">
           <router-link v-bind:to="`/products/${product.id}`">
             <img v-bind:src="product.src" />
           </router-link>

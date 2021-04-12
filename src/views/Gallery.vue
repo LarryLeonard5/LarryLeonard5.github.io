@@ -2,7 +2,7 @@
   <div class="container">
     <div class="content">
       <ul>
-        <li v-for="image in gallery" v-bind:key="image">
+        <li v-for="image in gallery" v-bind:key="image.name">
           <img v-bind:src="image.src" />
         </li>
       </ul>
