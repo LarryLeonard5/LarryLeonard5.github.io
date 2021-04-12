@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div>
+  <div class="container">
+    <div class="content">
       <ul>
         <li v-for="image in gallery" v-bind:key="image">
           <img v-bind:src="image.src" />
@@ -11,22 +11,33 @@
 </template>
 
 <style scoped>
+.container {
+  width: 100%;
+}
+
+.content {
+  margin: auto;
+  width: 1200px;
+}
+
 ul {
+  display: flex;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 li {
-  margin: 24px 0;
-}
-
-.title {
-  font-size: 24px;
-  font-weight: 500;
-  margin-bottom: 6px;
+  margin: 6px 0;
+  width: 33%;
 }
 
 img {
-  width: 800px;
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 95%;
+  padding: 4px;
+  margin: auto;
 }
 </style>
 

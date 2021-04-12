@@ -1,37 +1,78 @@
 <template>
-  <div>
-    <div>
-      <ul>
-        <li v-for="product in products" v-bind:key="product">
+  <div class="container">
+    <div class="content">
+      <div class="row">
+        <div class="featured-product" v-for="product in featuredProducts" v-bind:key="product">
+          <div class="image-container">
+            <router-link v-bind:to="`/products/${product.id}`">
+              <img v-bind:src="product.src" />
+            </router-link>
+          </div>
           <div class="title">
             <router-link v-bind:to="`/products/${product.id}`">{{ product.name }}</router-link>
           </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="product" v-for="product in products" v-bind:key="product">
           <router-link v-bind:to="`/products/${product.id}`">
             <img v-bind:src="product.src" />
           </router-link>
-        </li>
-      </ul>
+          <div class="title">
+            <router-link v-bind:to="`/products/${product.id}`">{{ product.name }}</router-link>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-ul {
-  list-style: none;
+.container {
+  width: 100%;
 }
 
-li {
-  margin: 24px 0;
+.content {
+  margin: auto;
+  width: 1200px;
 }
 
 .title {
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 6px;
+  width: 100%;
+  text-align: center;
 }
 
 img {
-  width: 800px;
+  display: block;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 90%;
+  padding: 5px;
+  margin: auto;
+}
+
+.image-container {
+  height: 420px;
+}
+
+.row {
+  display: flex;
+}
+
+.featured-product {
+  width: 50%;
+}
+
+.product {
+  width: 33%;
+}
+
+a {
+  text-decoration: none;
+  color: #2c3e50;
 }
 </style>
 
@@ -46,9 +87,16 @@ export default class Products extends Vue {
   products = data.products.map((product) => {
     return { ...product, src: require(`../assets/images/${product.src}`) };
   });
+  featuredProducts: {
+    src: string;
+    id: string;
+    name: string;
+    description: string;
+  }[] = [];
 
-  created() {
-    console.log(this.products);
+  created(): void {
+    this.featuredProducts = this.products.slice(0, 2);
+    this.products = this.products.slice(2, 5);
   }
 }
 </script>

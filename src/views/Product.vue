@@ -1,8 +1,5 @@
 <template>
   <div>
-    <div>
-      <router-link to="/products">See all products</router-link>
-    </div>
     <img v-bind:src="product.src" />
     <div class="name">{{ product.name }}</div>
     <div v-html="product.description"></div>

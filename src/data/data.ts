@@ -21,9 +21,9 @@ export default {
       `,
     },
     {
-      id: 'lounge-chairs',
-      name: 'Lounge Chairs',
-      src: 'Lounge-Chairs--on-paving-stone-patio.jpg',
+      id: 'tete-d-tet',
+      name: "Tete d' Tete",
+      src: 'Tete-d-Tete-on-Deck-1.jpg',
       description: `
         <p>
           Description of product can include simple HTML
@@ -31,9 +31,9 @@ export default {
       `,
     },
     {
-      id: 'tete-d-tet',
-      name: "Tete d' Tete",
-      src: 'Tete-d-Tete-on-Deck-1.jpg',
+      id: 'lounge-chairs',
+      name: 'Lounge Chairs',
+      src: 'Lounge-Chairs--on-paving-stone-patio.jpg',
       description: `
         <p>
           Description of product can include simple HTML
