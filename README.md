@@ -30,6 +30,11 @@ vue ui
 
 Open your web browser to view the Vue CLI.
 
+```
+http://localhost:8001/
+```
+
+Import your project
 
 ## Project setup
 ```
