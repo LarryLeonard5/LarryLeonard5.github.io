@@ -19,5 +19,11 @@
     <p>
       Wholesale enquiries also welcome
     </p>
+    <img src="../assets/images/treehouse.jpg">
   </div>
 </template>
+<style scoped>
+img {
+  width: 600px;
+}
+</style>

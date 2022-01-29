@@ -53,12 +53,8 @@ export default {
   ],
   gallery: [
     {
-      name: 'Onions',
-      src: 'onions.jpg',
-    },
-    {
-      name: 'Peppers',
-      src: 'peppers.jpg',
+      name: 'treehouse',
+      src: 'treehouse.jpg',
     },
     {
       name: 'Corn',
