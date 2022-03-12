@@ -41,7 +41,22 @@ When doing so any changes made to the data.ts will be displayed on your website 
 
 Once you are happy with how the site looks locally you need to publish those changes. To do so we're using a tool called `git` which is like a `FTP` with a bunch of extra stuff for versioning and managing software development. For your purposes we're just using `git` for a simple manner to push the contents of your website to a host so we can view it at your web address.
 
-In order to do this you first need to commit the changes that you have made to your local repository. To do so you can use the git tools that are part of your `VS Code editor`. In the source control editor on the left it will indicate any files that you have changed or added to the applications project directory. You need to commit these changes. To  do so  press the `+` on each file so they are staged. Then type a message that describes the changes you made in the message text box at the top of the source control editor.
+In order to do this you first need to commit the changes that you have made to your local repository. To do so you can use the git tools that are part of your `VS Code editor`. In the source control editor on the left it will indicate any files that you have changed or added to the applications project directory. You need to commit these changes. To  do so  press the `+` on each file so they are staged. Then type a message that describes the changes you made in the message text box at the top of the source control editor and press the little check mark to commit.
+
+Now we just need to push or copy those changes to our web host at `github`. To do so click the sync changes button. You will now see the changes you made on the github website.
+
+The final step is now to publish the changes you made by running a deploy task in the `Vue UI`. Go to the `Deploy Tab` and click `Run task`, wait for around 10 minutes as it builds and updates the website. You can view the progress on the output tab. When it is completed the Output will say something like this.
+
+```
+To github.com:LarryLeonard5/LarryLeonard5.github.io.git
+ + 0ab3356...8483ca8 master -> gh-pages (forced update)
+
+/Users/gunderwood/personal-workspace/leisurecedar-vue
+
+Total task duration: 186.5s
+```
+
+At this point you should see all your updates on your web site at `https://leisurecedar.ca/`
 
 ## Development environment Setup on Windows 7
 
