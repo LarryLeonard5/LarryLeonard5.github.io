@@ -2,7 +2,7 @@
 
 ## Running the development environment
 
-Open a terminal and run the Vue UI
+Open a `Git Bash` terminal in VS Code and run the Vue UI
 
 ```
 vue ui
@@ -43,7 +43,11 @@ Once you are happy with how the site looks locally you need to publish those cha
 
 In order to do this you first need to commit the changes that you have made to your local repository. To do so you can use the git tools that are part of your `VS Code editor`. In the source control editor on the left it will indicate any files that you have changed or added to the applications project directory. You need to commit these changes. To  do so  press the `+` on each file so they are staged. Then type a message that describes the changes you made in the message text box at the top of the source control editor and press the little check mark to commit.
 
-Now we just need to push or copy those changes to our web host at `github`. To do so click the sync changes button. You will now see the changes you made on the github website.
+Now we just need to push or copy those changes to our web host at `github`. To do so click the sync changes button. You will now see the changes you made on the github website. If the UI in VS Code doesn't work in a `Git Bash` terminal run the command.
+
+```
+git push origin master
+```
 
 The final step is now to publish the changes you made by running a deploy task in the `Vue UI`. Go to the `Deploy Tab` and click `Run task`, wait for around 10 minutes as it builds and updates the website. You can view the progress on the output tab. When it is completed the Output will say something like this.
 
