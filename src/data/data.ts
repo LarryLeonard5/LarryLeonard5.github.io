@@ -53,16 +53,11 @@ export default {
   ],
   gallery: [
     {
-      name: 'Peppers',
-      src: 'peppers.jpg',
-    },
-    {
-      name: 'Corn',
-      src: 'corn.jpg',
-    },
-    {
-      name: 'Couch',
-      src: 'couch.jpg',
-    },
+      name: "2.5x12 pinic table" ,
+      src: '25x12-picnic-table.png',
+    },{
+      name:"2x6 pinic table",
+      src:"2x6 picnic table.png"
+    }
   ],
 };

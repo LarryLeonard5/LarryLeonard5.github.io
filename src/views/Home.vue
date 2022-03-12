@@ -14,8 +14,7 @@
         furniture for the past twenty years.
       </p>
       <p>
-        All Leisure Cedar products are shipped flat packed, ready to assemble with clear, easy to
-        follow instructions. Only common hand tools needed to put them together.
+        
       </p>
     </div>
   </div>

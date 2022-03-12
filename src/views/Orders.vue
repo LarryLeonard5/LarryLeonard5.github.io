@@ -19,7 +19,7 @@
     <p>
       Wholesale enquiries also welcome
     </p>
-    <img src="../assets/images/treehouse.jpg">
+    <img src="../assets/images/Larry.jpg">
   </div>
 </template>
 <style scoped>
