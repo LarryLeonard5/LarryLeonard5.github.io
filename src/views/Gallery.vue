@@ -2,8 +2,9 @@
   <div class="container">
     <div class="content">
       <ul>
-        <li v-for="image in gallery" v-bind:key="image.name">
+        <li class="gallery-item" v-for="image in gallery" v-bind:key="image.name">
           <img v-bind:src="image.src" />
+          <span>{{ image.name }}</span>
         </li>
       </ul>
     </div>
@@ -38,6 +39,23 @@ img {
   width: 95%;
   padding: 4px;
   margin: auto;
+}
+
+li.gallery-item span {
+  display: none;
+  position: relative;
+  z-index: 100;
+  top: -160px;
+  left: 50px;
+  background: #ddd;
+  color: #2c3e50;
+  max-width: 200px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+li.gallery-item:hover span {
+  display: block;
 }
 
 @media only screen and (max-width: 1280px) {

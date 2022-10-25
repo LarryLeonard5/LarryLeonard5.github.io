@@ -52,12 +52,25 @@ export default {
     },
   ],
   gallery: [
-    {
-      name: "2.5x12 pinic table" ,
-      src: '25x12-picnic-table.png',
-    },{
-      name:"2x6 pinic table",
-      src:"2x6 picnic table.png"
-    }
+    { name: 'Bench with Planters', src: 'bench-with-planters.jpg' },
+    { name: 'Square Charcuterie Board', src: 'charcuterie-board-2.jpg' },
+    { name: 'Rounded Charcuterie Board', src: 'charcuterie-board.jpg' },
+    { name: 'Coffee Table', src: 'coffee-table.jpg' },
+    { name: 'Custom Kitchen Wall Unit', src: 'custom-kitchen-wall-unit.jpg' },
+    { name: 'Cutting Boards', src: 'cutting-boards.jpg' },
+    { name: 'Dresser Top Valet', src: 'dresser-top-valet.jpg' },
+    { name: 'End Tables', src: 'end-tables.jpg' },
+    { name: 'Entertainment Center', src: 'entertainment-center.jpg' },
+    { name: 'Entry Stools', src: 'entry-stools.jpg' },
+    { name: 'Foot Board', src: 'foot-board.jpg' },
+    { name: 'Head Board', src: 'head-board.jpg' },
+    { name: 'Kitchen Island', src: 'kitchen-island.jpg' },
+    { name: 'Office Shelves', src: 'office-shelves.jpg' },
+    { name: '2x6 Picnic Table', src: 'picnic-table-2x6.jpg' },
+    { name: '3x12 Picnic Table', src: 'picnic-table-3x12.jpg' },
+    { name: 'Plank Doors', src: 'plank-doors.jpg' },
+    { name: 'Planter Boxes', src: 'planter-boxes.jpg' },
+    { name: 'Planters for Deck Hand Rails', src: 'planters-for-deck-hand-rails.jpg' },
+    { name: 'Tete a Tete with Cooler', src: 'tete-a-tete-with-cooler.jpg' },
   ],
 };
