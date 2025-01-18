@@ -11,15 +11,15 @@
 
     <p>
       email
-      <a href="mailto:leisurecedar.ca@lardeauvalley.com?subject=Order%20from%20website">
-        leisurecedar.ca@lardeauvalley.com</a
+      <a href="mailto:leisurecedar@gmail.com?subject=Order%20from%20website">
+        leisurecedar@gmail.com</a
       >
     </p>
 
     <p>
       Wholesale enquiries also welcome
     </p>
-    <img src="../assets/images/Larry.jpg">
+    <img src="../assets/images/Larry.jpg" />
   </div>
 </template>
 <style scoped>
